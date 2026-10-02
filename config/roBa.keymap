@@ -8,9 +8,9 @@
     quick-tap-ms = <0>;
 };
 
-&trackball {
-    automouse-layer = <3>;
-    scroll-layers = <5>;
+// &trackball {
+//     automouse-layer = <5>;
+//     scroll-layers = <6>;
 
     // arrows {
     //     layers = <3>;
