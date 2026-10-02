@@ -35,6 +35,18 @@
             key-positions = <13 12>;
             layers = <1>;
         };
+
+        Atmark {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <20 19>;
+            layers = <0>;
+        };
+
+        MouseButton1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 20 19>;
+            layers = <0>;
+        };
     };
 
     macros {
