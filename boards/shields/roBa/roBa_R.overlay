@@ -23,7 +23,7 @@
         axis = <1>;
         layer = <4>;
         scale = <1>;
-        scale-div = <80>;
+        scale-div = <50>;
 
         // The module defaults target 1000 CPI; roBa is configured for 400 CPI.
         start = <16>;
@@ -41,7 +41,7 @@
             input-processors = <
                 &zip_xy_to_scroll_mapper
                 &scroll_inertia_v
-                &zip_scroll_scaler 1 80
+                &zip_scroll_scaler 1 50
             >;
         };
     };
